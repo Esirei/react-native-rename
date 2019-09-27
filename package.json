@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "babel src --out-dir lib",
-    "prepare": "babel src --out-dir lib",
     "relink": "sudo npm unlink && sudo npm run prepublish && sudo npm link",
     "format": "prettier --write '**/*.{js,jsx}'",
     "lint": "eslint '**/*.{js,jsx}'",
