@@ -12,6 +12,7 @@
     "react-native-rename": "babel-node src/index.js",
     "precommit": "lint-staged"
   },
+  "files": ["lib/"],
   "lint-staged": {
     "**/*.js": [
       "format",
